@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85edf14f-f3cc-43db-80ad-f5a336925c31" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Stream/Medals/CountryResultsData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Stream/Medals/CountryResultsDataReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Stream/Medals/CountryResultsDataStatisticsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Stream/Medals/CountryResultsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Stream/Medals/MyOwnException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SDA-Programowanie.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SDA-Programowanie.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stream/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Stream/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Stream/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,8 +36,11 @@
     </option>
   </component>
   <component name="ProjectId" id="1Xz7rZ3vvcfuRvWVTQ8JdV6EMkA" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -54,10 +58,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CountryResultsDemo">
+    <configuration name="CountryResultsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stream.Medals.CountryResultsDemo" />
+      <module name="SDA-Programowanie" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;C:\1 Software Developer\Workspace\SDA-Programowanie\data4.txt&quot;" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stream.Medals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Stream.Main" />
       <module name="SDA-Programowanie" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;C:\1 Software Developer\Workspace\SDA-Programowanie\data4.txt&quot;" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Stream.*" />
@@ -68,8 +87,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.CountryResultsDemo" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountryResultsDemo" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -92,10 +116,15 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
